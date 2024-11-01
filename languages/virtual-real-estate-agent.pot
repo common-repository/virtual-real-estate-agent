@@ -1,0 +1,97 @@
+# Copyright (C) 2020 Muhammad Adeel
+# This file is distributed under the GPL2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Virtual Real Estate Agent\n"
+"POT-Creation-Date: 2020-04-18 10:46+0200\n"
+"PO-Revision-Date: 2020-04-15 12:50+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0:virtual-real-estate-agent.pot\n"
+
+#. Plugin Name of the plugin/theme
+msgid "Virtual Real Estate Agent"
+msgstr ""
+
+msgid "Overview"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Instructions"
+msgstr ""
+
+msgid "Plugin Settings"
+msgstr ""
+
+msgid "These settings apply to the iFrame of Virtual Real Estate Agent."
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "URL *"
+msgstr ""
+
+msgid "Position *"
+msgstr ""
+
+msgid "Bottom left"
+msgstr ""
+
+msgid "Bottom right"
+msgstr ""
+
+msgid "Enable Virtual Real Estate Agent"
+msgstr ""
+
+msgid "Click settings tab to enable the Virtual Real Estate Agent"
+msgstr ""
+
+msgid "Instructions and Guidelines"
+msgstr ""
+
+msgid "In order to activate the chat plugin please perform the following instructions:"
+msgstr ""
+
+msgid "This is the initial wordpress plugin to serve chat plugin inside the iFrame and display this chat plugin on the wordpress websites."
+msgstr ""
+
+msgid "https://bots4you.atlassian.net/wiki/spaces/DOC/pages/286621697/Wordpress+Plugin+Installation+Guide+-+English"
+msgstr ""
+
+msgid "There was an error while changing the settings of the plugin. Please try again!"
+msgstr ""
+
+msgid "Click on <strong>Virtual Real Estate Agent</strong> located in the sidebar and then click on <strong>Settings</strong>"
+msgstr ""
+
+msgid "Enable the chat plugin Virtual Real Estate Agent by clicking on the checkbox “<strong>Enable</strong>”"
+msgstr ""
+
+msgid "Now paste the link https://testwebsite.de/ into the URL text field."
+msgstr ""
+
+msgid "Select the position where the Virtual Real Estate Agent should be displayed on the WordPress website. In this example we choose “<strong>Bottom Right</strong>”. Then click on <span class=\"save-change\">Save Changes</span>."
+msgstr ""
+
+msgid "Navigate to your WordPress website."
+msgstr ""
+
+msgid "Click the icon in the bottom right corner to display the Virtual Real Estate Agent."
+msgstr ""
+
+msgid "The installation is complete. The Virtual Real Estate Agent can now be used on your WordPress website."
+msgstr ""
+
+msgid "en"
+msgstr ""

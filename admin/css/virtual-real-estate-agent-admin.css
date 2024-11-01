@@ -1,0 +1,253 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.va-tabbed {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 0 0 1px #c8d7e1, 0 1px 2px #e9eff3;
+}
+.va-tabbed nav {
+    order: 1;
+    background-color: #f1f1f1;
+    flex-basis: auto;
+    padding: 0;
+    min-height: 405px;
+    border-right: 1px solid #c8d7e1;
+    min-width: 250px;
+}
+.va-tabbed nav ul,
+.va-tabbed nav li {
+    margin: 0;
+}
+.va-tabbed nav a {
+    display: block;
+    border: none;
+    padding: 0.5rem;
+    border-bottom: 1px solid #c8d7e1;
+    border-right: 1px solid #c8d7e1;
+    background-color: #f1f1f1;
+    color: #444;
+    text-decoration: none;
+    margin-right: -1px;
+    font-weight: 500;
+}
+.va-tabbed nav a label {
+    padding: 0.5rem;
+    display: inline-block;
+}
+.va-tabbed nav a:focus,
+.va-tabbed nav a:active {
+    outline: 0;
+    box-shadow: none;
+}
+.va-tabbed nav .dashicons {
+    padding: 8px 0 0 5px;
+}
+.va-tabbed nav .dashicons.dashicons-admin-home {
+    color: #e67e22;
+}
+.va-tabbed nav .dashicons.dashicons-admin-settings {
+    color: #00aeff;
+}
+.va-tabbed nav .dashicons.dashicons-dashboard {
+    color: #6c75ff;
+}
+.va-tabbed nav .dashicons.dashicons-admin-users {
+    color: #e67e22;
+}
+.va-tabbed nav .dashicons.dashicons-lock {
+    color: #3d566e;
+}
+.va-tabbed nav .dashicons.dashicons-edit {
+    color: #1abc9d;
+}
+.va-tabbed nav .dashicons.dashicons-cart {
+    color: #e74c3c;
+}
+.va-tabbed nav .dashicons.dashicons-unlock {
+    color: #00aeff;
+}
+.va-tabbed nav .tab-current a {
+    border-right: 1px solid #fff;
+    background: #fff;
+    color: #2e4453;
+}
+.va-tabbed .nav-content {
+    order: 1;
+    background-color: #fff;
+    padding: 2rem;
+    width: 100%;
+}
+.va-tabbed .nav-content h2 {
+    margin-top: 30px;
+    color: #23282d;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #c8d7e1;
+    padding-bottom: 15px;
+}
+.va-tabbed .nav-content h2:first-child {
+    margin-top: 0;
+}
+.va-tabbed .nav-content section {
+    display: none;
+    color: #444;
+    font-size: 0.875rem;
+}
+.va-tabbed .nav-content section p {
+    font-size: 0.875rem;
+}
+.va-tabbed .nav-content section.content-current {
+    display: block;
+}
+.va-tabbed .nav-content section ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+.va-tabbed .nav-content section ul.related-articles {
+    list-style: none;
+    padding-left: 10px;
+}
+.va-tabbed .nav-content section .button-primary {
+    background: #00aadc;
+    border-color: #0087be;
+    text-shadow: none;
+    padding: 3px 20px;
+    height: auto;
+    margin: 0.3125rem 0;
+}
+.va-tabbed .nav-content section .button-primary:hover {
+    border-color: #005082;
+}
+.va-page .va-subscribe-box {
+    display: flex;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    margin-top: 15px;
+}
+.va-page .va-subscribe-box .text-wrap {
+    width: 100%;
+    padding: 10px 15px;
+}
+.va-page .va-subscribe-box .text-wrap h3 {
+    color: #ff5722;
+    margin: 4px 0 0 0;
+}
+.va-page .va-subscribe-box .text-wrap p {
+    margin-bottom: 5px;
+}
+.va-page .va-subscribe-box .form-wrap {
+    width: 530px;
+    display: flex;
+    padding: 10px 0;
+    background: #f7f7f7;
+    padding-left: 20px;
+    border-left: 1px solid #eee;
+}
+.va-page .va-subscribe-box .form-wrap .thank-you {
+    font-size: 16px;
+    color: green;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+.va-page .va-subscribe-box .form-wrap label {
+    color: #666;
+}
+.va-page .va-subscribe-box .form-wrap input {
+    max-width: 100%;
+    overflow: hidden;
+}
+.va-page .va-subscribe-box .form-wrap input[type="text"],
+.va-page .va-subscribe-box .form-wrap input[type="email"] {
+    padding: 5px 8px;
+}
+.va-page .va-subscribe-box .form-wrap .fname {
+    width: 35%;
+    margin-right: 10px;
+}
+.va-page .va-subscribe-box .form-wrap .email {
+    width: 40%;
+    margin-right: 10px;
+}
+.va-page .va-subscribe-box .form-wrap .submit-btn {
+    width: 20%;
+    padding-top: 22px;
+}
+.va-page .help-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 30px;
+}
+.va-page .help-blocks .help-block {
+    flex: 1;
+    align-self: flex-start;
+    min-width: 25%;
+    max-width: 30%;
+    border: 1px solid #ddd;
+    margin-right: 2%;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    padding: 25px 15px;
+    text-align: center;
+    background: #fff;
+}
+.va-page .help-blocks .help-block img {
+    max-height: 44px;
+}
+.va-page .va-questions ul {
+    margin: 5px 0;
+}
+.va-page .va-questions li {
+    padding: 10px 5px;
+    margin: 0;
+    display: block;
+    border-bottom: 1px solid #eee;
+}
+.va-page .va-questions li:hover {
+    background-color: #F5F5F5;
+}
+.va-page .va-questions li:last-child {
+    border-bottom: none;
+}
+.va-page .va-questions li .dashicons {
+    color: #ccc;
+    margin-top: -3px;
+}
+.va-page .va-questions li .dashicons-media-text {
+    padding-left: 8px;
+}
+.va-page .va-questions li .dashicons-arrow-right-alt2 {
+    float: right;
+}
+.va-settings-wrap .metabox-holder h2 {
+    border-bottom: 1px solid #c8d7e1;
+    padding-bottom: 15px;
+    margin-top: 14px;
+}
+.save-change {
+    color: rgb(0, 184, 217);
+    font-weight: bold;
+}
+.instruction-image {
+    margin: 20px 0;
+    width: 100%;
+}
+.logo {
+    background: linear-gradient(0deg, #52088f 0%, #320359 100%);
+    padding: 20px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .va-tabbed nav {
+        min-width: 50px;
+    }
+    .va-tabbed nav a label {
+        display: none;
+    }
+}
